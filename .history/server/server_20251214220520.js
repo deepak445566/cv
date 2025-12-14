@@ -26,7 +26,7 @@ app.use(cors({
 
     const allowedOrigins = [
       "http://localhost:5173",
-      "https://cv-seven-eta.vercel.app"
+      "https://cv-seven-eta.vercel.app/"
     ];
 
     if (allowedOrigins.includes(origin)) {
