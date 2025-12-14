@@ -20,10 +20,8 @@ await connectDB();
 await connectCloudinary();
 
 // Simple CORS configuration
-app.use(cors({
-  origin: true, // ✅ Sab allow
-  credentials: true
-}));
+ origin: true,
+
 
 
 // Middleware
